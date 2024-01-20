@@ -492,3 +492,18 @@ span{
         margin: 0 5rem;
     }
 }
+
+@media(max-width: 1000px){
+    header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    .services{
+        padding-bottom: 7rem;
+    }
+    .footer{
+        padding: 2rem 3%;
+    }
+}
