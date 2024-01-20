@@ -330,3 +330,16 @@ span{
     margin-bottom: 1rem;
 }
 
+.skill-bar{
+    margin-top: 8rem;
+    padding: 25px 30px;
+    background: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0 auto; 
+    max-width: 900px;
+    margin-bottom: 5rem;
+}
