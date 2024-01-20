@@ -75,3 +75,15 @@
     color: var(--text-color);
     display: none;
 }
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 10rem;
+}
+
+.home{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8rem;
+}
