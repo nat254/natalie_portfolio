@@ -361,3 +361,19 @@ span{
     font-size: 17px;
     font-weight: 500;
 }
+
+.skill-bar .bar .progress-line{
+    height: 25px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
