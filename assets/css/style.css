@@ -156,3 +156,31 @@ span{
     background-color: var(--primary-color);
     box-shadow: 0 0 25px var(--text-color);
 }
+
+.btn-container{
+    display: flex;
+    justify-content:left;
+    align-items: left;    
+}
+
+.btn{ 
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    transition: 0.3s ease-in-out;
+    border: 2px solid var(--primary-color);
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--background-color);
+    color: var(--text-color);
+    transform: scale(1.05);
+    border-color: var(--text-color);
+    box-shadow: 0 0 25px var(--text-color);
+}
