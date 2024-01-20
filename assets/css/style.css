@@ -481,3 +481,14 @@ span{
     font-size: 16px;
     color:var(--background-color);
 }
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .projects-container{
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 5rem;
+    }
+}
