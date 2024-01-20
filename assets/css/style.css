@@ -415,3 +415,11 @@ span{
 .contact form .btn{
     margin-top: 2rem;
 }
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    background-color: var(--primary-color);
+}
