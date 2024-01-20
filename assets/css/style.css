@@ -408,5 +408,6 @@ span{
     background: var(--background-color);
     border-radius: 0.8rem;
     border: 2px solid var(--primary-color);
-
+    margin: 1rem 0;
+    resize: none;
 }
