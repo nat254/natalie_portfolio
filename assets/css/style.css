@@ -343,3 +343,21 @@ span{
     max-width: 900px;
     margin-bottom: 5rem;
 }
+
+.skill-bar .bar{
+    margin: 5px 0;
+}
+
+.skill-bar .bar:first-child{
+    margin-top: 0px;
+}
+
+.skill-bar .bar .info{
+    margin-bottom: 5px;
+}
+
+.skill-bar .bar .info span{
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 500;
+}
