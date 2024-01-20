@@ -320,3 +320,12 @@ span{
     width: 50px;
 }
 
+.skills{
+    background-color: var(--background-color);
+    margin: 0 auto;
+}
+
+.skills h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
