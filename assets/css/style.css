@@ -396,7 +396,7 @@ span{
 .contact form .input-box{
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 .contact form .input-box input,
