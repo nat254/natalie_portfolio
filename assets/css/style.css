@@ -411,3 +411,7 @@ span{
     margin: 1rem 0;
     resize: none;
 }
+
+.contact form .btn{
+    margin-top: 2rem;
+}
