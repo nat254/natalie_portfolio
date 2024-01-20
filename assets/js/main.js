@@ -34,3 +34,31 @@ increase("value2", 70, 70) //CSS
 increase("value3", 40, 40) //JS
 increase("value4", 50, 50) //PHP
 increase("value5", 60, 60) //SQL
+
+//functionality for the navbar
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.nav-menu');
+
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let height = sec.offsetHeight;
+        let offset = sec.offsetTop - 150;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height){
+            navLinks.forEach(links => {
+                links.classList.remove('nav-active');
+                document.querySelector('header nav a[href*='+id+']').classList.add('nav-active');
+            });
+        }
+    });
+}
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('nav-active');
+}   
