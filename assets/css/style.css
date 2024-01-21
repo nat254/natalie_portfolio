@@ -379,7 +379,7 @@ span{
 }
 
 .contact{
-    background-color: #FDF6F3;
+    background-color: var(--background-color);
 }
 
 .contact h2{
