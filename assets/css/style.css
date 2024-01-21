@@ -378,6 +378,79 @@ span{
     cursor: pointer;
 }
 
+.projects{
+    background-color: #FDF6F3;
+}
+
+.projects h2{
+    margin-bottom: 5rem;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:2.5rem;
+}
+
+.project-container .project-card{
+    position: relative;
+    height: 400px;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.project-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.project-card:hover img{
+    transform: scale(1.1);
+}
+
+.project-card .projects-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.project-card .projects-info:hover{
+    background: radial-gradient(rgba(98,52,18), var(--primary-color));
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.projects-info h4{
+    font-size: 3rem;
+    color: var(--background-color);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.projects-info p{
+    font-size: 1.6rem;
+    color: var(--background-color);
+    font-weight: 600;
+    margin: 0.3rem 0 1rem;
+}
+
+
 .contact{
     background-color: var(--background-color);
 }
