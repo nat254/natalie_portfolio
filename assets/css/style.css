@@ -118,14 +118,18 @@ span{
     line-height: 1.3;
 }
 
-
-
 .home-img img{
     position: relative;
     width: 22vw;
     cursor: pointer;
     border-radius: 20%;
     box-shadow: 0 0 25px var(--text-color);
+}
+
+.home-img img:hover{
+    transform: scale(1.1);
+    border-radius: 50%;
+    transition: 0.9s ease;
 }
 
 .home-content p{
